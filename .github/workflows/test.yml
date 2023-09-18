@@ -26,6 +26,7 @@ jobs:
           # pip更新
           # python -m pip install --upgrade pip
           # 必要なパッケージインストール・・・②
+          pip install opencv-python mediapipe
 
       - name: Run script
         run: |
