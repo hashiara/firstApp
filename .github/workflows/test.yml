@@ -1,6 +1,6 @@
 # ワークフロー名
 name: housework_bot
-on:[push]
+on: [push]
   # push:
     # branches:
     # トリガーとするブランチを指定
@@ -8,7 +8,6 @@ on:[push]
   # schedule:
     # 定期実行する時間・・・①
     # - cron: '*/5 * * * *'
-      
 jobs:
   build:
     # Ubuntuの最新版環境内で処理を実行することを指定
